@@ -1,10 +1,17 @@
 # Mall: SK EID Public Monitoring
 
-### Teenuse spetsifikatsioon
+## Monitooritavad teenused
+ - Elisa mID
+ - EMT mID
+ - Tele2 Eesti mID
+ - SmartID autentimine
+ - SmartID signeerimine
+
+## Teenuste spetsifikatsioon
 https://github.com/SK-EID/public-monitoring
 
-### Ühilduvus
+## Ühilduvus
 Zabbix 4.0
 
-### Sõltuvused
+## Sõltuvused
 Sõltuvusi muust sisendist (mallid, _value mapping_ jms.) ei ole.
