@@ -164,7 +164,7 @@ Päringutel kasutatakse makrot {HOST.CONN}, st. päring saadetakse serverile, mi
                     <master_item/>
                 </item>
                 <item>
-                    <name>Tele2EE mID</name>
+                    <name>Tele2-EE mID</name>
                     <type>19</type>
                     <snmp_community/>
                     <snmp_oid/>
@@ -575,7 +575,7 @@ Päringutel kasutatakse makrot {HOST.CONN}, st. päring saadetakse serverile, mi
             <expression>{Template App SK EID Public Monitoring:mid.tele2ee.str(CRITICAL)}=1</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>Tele2EE mID CRITICAL</name>
+            <name>Tele2-EE mID CRITICAL</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
@@ -591,7 +591,7 @@ Päringutel kasutatakse makrot {HOST.CONN}, st. päring saadetakse serverile, mi
             <expression>{Template App SK EID Public Monitoring:mid.tele2ee.str(UNKNOWN)}=1</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>Tele2EE mID UNKNOWN</name>
+            <name>Tele2-EE mID UNKNOWN</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
@@ -607,7 +607,7 @@ Päringutel kasutatakse makrot {HOST.CONN}, st. päring saadetakse serverile, mi
             <expression>{Template App SK EID Public Monitoring:mid.tele2ee.str(WARNING)}=1</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>Tele2EE mID WARNING</name>
+            <name>Tele2-EE mID WARNING</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
