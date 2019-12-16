@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>4.0</version>
-    <date>2019-08-01T05:28:18Z</date>
+    <date>2019-12-16T10:37:55Z</date>
     <groups>
         <group>
             <name>Templates</name>
@@ -95,11 +95,11 @@ Päringutel kasutatakse makrot {HOST.CONN}, st. päring saadetakse serverile, mi
                     <master_item/>
                 </item>
                 <item>
-                    <name>EMT mID</name>
+                    <name>Telia-EE mID</name>
                     <type>19</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>mid.emt</key>
+                    <key>mid.teliaee</key>
                     <delay>5m</delay>
                     <history>14d</history>
                     <trends>0</trends>
@@ -428,10 +428,10 @@ Päringutel kasutatakse makrot {HOST.CONN}, st. päring saadetakse serverile, mi
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template App SK EID Public Monitoring:mid.emt.str(CRITICAL)}=1</expression>
+            <expression>{Template App SK EID Public Monitoring:mid.teliaee.str(CRITICAL)}=1</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>EMT mID CRITICAL</name>
+            <name>Telia-EE mID CRITICAL</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
@@ -444,10 +444,10 @@ Päringutel kasutatakse makrot {HOST.CONN}, st. päring saadetakse serverile, mi
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template App SK EID Public Monitoring:mid.emt.str(UNKNOWN)}=1</expression>
+            <expression>{Template App SK EID Public Monitoring:mid.teliaee.str(UNKNOWN)}=1</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>EMT mID UNKNOWN</name>
+            <name>Telia-EE mID UNKNOWN</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
@@ -460,10 +460,10 @@ Päringutel kasutatakse makrot {HOST.CONN}, st. päring saadetakse serverile, mi
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template App SK EID Public Monitoring:mid.emt.str(WARNING)}=1</expression>
+            <expression>{Template App SK EID Public Monitoring:mid.teliaee.str(WARNING)}=1</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>EMT mID WARNING</name>
+            <name>Telia-EE mID WARNING</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
