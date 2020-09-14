@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>4.0</version>
-    <date>2020-05-04T15:58:27Z</date>
+    <date>2020-09-14T05:09:57Z</date>
     <groups>
         <group>
             <name>Templates</name>
@@ -70,7 +70,7 @@ Päringutel kasutatakse makrot {HOST.CONN}, st. päring saadetakse serverile, mi
                     </preprocessing>
                     <jmx_endpoint/>
                     <timeout>3s</timeout>
-                    <url>https://{HOST.CONN}/v1/sk-dds-mid.json</url>
+                    <url>https://{HOST.CONN}/v1/mid-rest_live.json</url>
                     <query_fields/>
                     <posts/>
                     <status_codes>200,302,304,307</status_codes>
@@ -139,7 +139,7 @@ Päringutel kasutatakse makrot {HOST.CONN}, st. päring saadetakse serverile, mi
                     </preprocessing>
                     <jmx_endpoint/>
                     <timeout>3s</timeout>
-                    <url>https://{HOST.CONN}/v1/sk-dds-mid.json</url>
+                    <url>https://{HOST.CONN}/v1/mid-rest_live.json</url>
                     <query_fields/>
                     <posts/>
                     <status_codes>200,302,304,307</status_codes>
@@ -208,7 +208,7 @@ Päringutel kasutatakse makrot {HOST.CONN}, st. päring saadetakse serverile, mi
                     </preprocessing>
                     <jmx_endpoint/>
                     <timeout>3s</timeout>
-                    <url>https://{HOST.CONN}/v1/sk-dds-mid.json</url>
+                    <url>https://{HOST.CONN}/v1/mid-rest_live.json</url>
                     <query_fields/>
                     <posts/>
                     <status_codes>200,302,304,307</status_codes>
@@ -437,7 +437,7 @@ Päringutel kasutatakse makrot {HOST.CONN}, st. päring saadetakse serverile, mi
             <url/>
             <status>0</status>
             <priority>3</priority>
-            <description>Component is not working correctly</description>
+            <description>Failrate is greater than 75%</description>
             <type>0</type>
             <manual_close>0</manual_close>
             <dependencies/>
@@ -469,7 +469,7 @@ Päringutel kasutatakse makrot {HOST.CONN}, st. päring saadetakse serverile, mi
             <url/>
             <status>0</status>
             <priority>2</priority>
-            <description>Component is operational; some of the requests are failing.</description>
+            <description>Failrate is 15...75 %</description>
             <type>0</type>
             <manual_close>0</manual_close>
             <dependencies/>
@@ -485,7 +485,7 @@ Päringutel kasutatakse makrot {HOST.CONN}, st. päring saadetakse serverile, mi
             <url/>
             <status>0</status>
             <priority>3</priority>
-            <description>Component is not working correctly</description>
+            <description>Failrate is greater than 75%</description>
             <type>0</type>
             <manual_close>0</manual_close>
             <dependencies/>
@@ -517,7 +517,7 @@ Päringutel kasutatakse makrot {HOST.CONN}, st. päring saadetakse serverile, mi
             <url/>
             <status>0</status>
             <priority>2</priority>
-            <description>Component is operational; some of the requests are failing.</description>
+            <description>Failrate is 15...75 %</description>
             <type>0</type>
             <manual_close>0</manual_close>
             <dependencies/>
